@@ -180,8 +180,8 @@ main {
 }
 
 .flecha {
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     position: absolute;
     left: 90%;
     margin-bottom: 30px;
@@ -191,5 +191,59 @@ main {
             width: 100%;
             height: 100%;
         }
+    }
+}
+
+/*TABLET HEADER*/
+@media (min-width: 375px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        width: 300px;
+    }
+
+    main {
+        width: 300px;
+
+        .galeria {
+            gap: 0px;
+            .img1 {
+                width: 110px;
+                height: 110px;
+            }
+
+            .img2 {
+                width: 110px;
+                height: 110px;
+            }
+
+            .img3 {
+                width: 110px;
+                height: 232px;
+                
+            }
+
+            .img4 {
+                width: 110px;
+                height: 110px;
+            }
+
+            .img5 {
+                width: 110px;
+                height: 110px;
+            }
+
+            .img6 {
+                width: 249px;
+            }
+        }
+    }
+
+    #sobre {
+        width: 300px;
+        margin-bottom: 45px;
     }
 }
