@@ -6,6 +6,7 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -131,6 +132,7 @@ main .galeria .img6 {
   width: 184px;
   height: 108px;
   grid-area: img6;
+  margin-bottom: 14px;
 }
 main .galeria .img6 img {
   width: 100%;
@@ -164,6 +166,18 @@ main .galeria .img6 img {
   font-weight: 200;
   font-size: 8px;
   color: #fcc00e;
+}
+
+.flecha {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 90%;
+  margin-bottom: 30px;
+}
+.flecha a img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
