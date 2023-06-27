@@ -1,0 +1,38 @@
+header {
+    background-color: $secundario;
+    width: 230px;
+    height: 195px;
+    margin: 45px 45px 0px 45px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        width: 104px;
+        height: 20px;
+        color: $primario;
+        font-family: $principal;
+        font-weight: 700;
+        font-size: 16px;
+        margin: 22.5px 0px 22.5px 22.5px;
+    }
+
+    h2 {
+        font-family: $principal;
+        font-weight: 200;
+        font-size: 15px;
+        color: $primario;
+        margin: 0px 0px 22.5px 22.5px ;
+    }
+
+    .uno {
+        margin-bottom: 19px;
+    }
+
+    a {
+        font-family: $principal;
+        font-size: 8px;
+        font-weight: 700;
+        color: $primario;
+        margin-left: 22.5px;
+    }
+}

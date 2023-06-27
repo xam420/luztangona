@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*TIPOGRAFÍA*/
+/*COLORES*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #fcc00e;
+}
+
+header {
+  background-color: #1f1f1f;
+  width: 230px;
+  height: 195px;
+  margin: 45px 45px 0px 45px;
+  display: flex;
+  flex-direction: column;
+}
+header h1 {
+  width: 104px;
+  height: 20px;
+  color: #fcc00e;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 22.5px 0px 22.5px 22.5px;
+}
+header h2 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: #fcc00e;
+  margin: 0px 0px 22.5px 22.5px;
+}
+header .uno {
+  margin-bottom: 19px;
+}
+header a {
+  font-family: "Archivo", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  color: #fcc00e;
+  margin-left: 22.5px;
+}
+
+/*# sourceMappingURL=style.css.map */
