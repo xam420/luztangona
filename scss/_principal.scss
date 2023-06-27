@@ -1,9 +1,9 @@
 /*MOBILE HEADER*/
 header {
     background-color: $secundario;
-    width: 230px;
+    width: 250px;
     height: 195px;
-    margin: 45px 45px 0px 45px;
+    margin: 45px 45px 0px 35px;
     display: flex;
     flex-direction: column;
 
@@ -46,19 +46,23 @@ header {
 /*MOBILE MAIN*/
 main {
     background-color: $secundario;
-    width: 230px;
-    margin: 45px 45px 0px 45px;
+    width: 250px;
+    margin: 45px 45px 0px 35px;
+    padding-top: 22px;
 
     a {
-        font-family: $primario;
-        color: $primario;
+        font-family: $principal;
+        font-weight: 700;
+        color: $secundario;
+        background-color: $primario;
         font-size: 8px;
         margin-left: 22.5px;
-        margin-bottom: 22.5px;
+        padding: 5px;
     }
 
     .galeria {
         margin-left: 22.5px;
+        margin-top: 14px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -94,7 +98,7 @@ main {
 
         .img3 {
             width: 80px;
-            height: 149px;
+            height: 198px;
             grid-area: img3;
 
             img {
@@ -138,6 +142,38 @@ main {
                 height: 100%;
                 object-fit: cover;
             }
+        }
+    }
+}
+
+/*MOBILE SOBRE*/
+#sobre {
+    background-color: $secundario;
+    width: 250px;
+    margin: 45px 45px 0px 35px;
+    display: flex;
+    flex-direction: column;
+
+    .titulo {
+        margin: 22.5px 0px 22.5px 22.5px;
+        
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: $primario;
+            font-family: $principal;
+        }
+    }
+
+    .texto {
+        margin: 0px 0px 22.5px 22.5px;
+        width: 190px;
+
+        p {
+            font-family: $principal;
+            font-weight: 200;
+            font-size: 8px;
+            color: $primario;
         }
     }
 }
