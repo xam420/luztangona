@@ -1,3 +1,4 @@
+/*MOBILE HEADER*/
 header {
     background-color: $secundario;
     width: 230px;
@@ -21,7 +22,7 @@ header {
         font-weight: 200;
         font-size: 15px;
         color: $primario;
-        margin: 0px 0px 22.5px 22.5px ;
+        margin: 0px 0px 17.5px 22.5px ;
     }
 
     .uno {
@@ -32,7 +33,111 @@ header {
         font-family: $principal;
         font-size: 8px;
         font-weight: 700;
-        color: $primario;
+        color: $secundario;
+        background-color: $primario;
+        padding: 5px;
         margin-left: 22.5px;
+        margin-bottom: 22.5px;
+        display: inline-block;
+        width: 40px;
+    }
+}
+
+/*MOBILE MAIN*/
+main {
+    background-color: $secundario;
+    width: 230px;
+    margin: 45px 45px 0px 45px;
+
+    a {
+        font-family: $primario;
+        color: $primario;
+        font-size: 8px;
+        margin-left: 22.5px;
+        margin-bottom: 22.5px;
+    }
+
+    .galeria {
+        margin-left: 22.5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "img1 img3"
+        "img2 img3"
+        "img4 img5"
+        "img6 img6";
+
+        .img1 {
+            width: 90px;
+            height: 90px;
+            grid-area: img1;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover
+            }
+        }
+        
+        .img2 {
+            width: 90px;
+            height: 90px;
+            grid-area: img2;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover
+            }
+        }
+
+        .img3 {
+            width: 80px;
+            height: 149px;
+            grid-area: img3;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .img4 {
+            width: 90px;
+            height: 90px;
+            grid-area: img4;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover
+            }
+        }
+
+        .img5 {
+            width: 90px;
+            height: 90px;
+            grid-area: img5;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover
+            }
+        }
+
+        .img6 {
+            width: 184px;
+            height: 108px;
+            grid-area: img6;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
     }
 }
