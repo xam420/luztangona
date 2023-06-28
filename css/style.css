@@ -163,4 +163,21 @@ body {
   object-fit: cover;
 }
 
+/*INICIO 390*/
+@media (min-width: 390px) {
+  #inicio .enlace-inicio {
+    margin-left: 40px;
+  }
+  #inicio .enlace-inicio a {
+    font-size: 17px;
+    padding: 7px;
+  }
+}
+/*INICIO 425*/
+@media (min-width: 425px) {
+  #inicio .enlace-inicio {
+    margin-left: 56px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
