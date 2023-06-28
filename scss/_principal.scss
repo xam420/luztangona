@@ -63,6 +63,87 @@ body {
     }
 }
 
+/*INICIO 500*/
+@media (min-width: 500px){
+    #inicio {
+        .enlace-inicio {
+            margin-left: 100px;
+        }
+    }
+}
+
+/*INICIO Y MAIN 768*/
+@media (min-width: 768px){
+    .container {
+        display: flex;
+
+        #inicio {
+            position: sticky;
+            top: 0;
+            width: 350px;
+            height: 400px;
+            gap: 22px;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 10%;
+
+            .texto-inicio {
+                h1 {
+                    font-size: 30px;
+                }
+
+                h2 {
+                    font-size: 25px;
+                }
+            }
+
+            .enlace-inicio {
+                margin-left: 0px;
+                align-self: start;
+                margin-top: 22px;
+            }
+        }
+
+        #portf {
+
+            .galeria {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-areas: 
+                "img1 img2"
+                "img3 img4"
+                "img5 img6";
+
+                .img1 {
+                    grid-area: img1;
+                }
+
+                .img2 {
+                    grid-area: img2;
+                }
+
+                .img3 {
+                    grid-area: img3;
+                }
+
+                .img4 {
+                    grid-area: img4;
+                }
+
+                .img5 {
+                    grid-area: img5;
+                }
+
+                .img6 {
+                    grid-area: img6;
+                }
+            }
+        }
+    }
+}
+
+
 /*MAIN MOBILE*/
 #portf {
     display: flex;
@@ -155,6 +236,7 @@ body {
     }
 }
 
+/*MAIN 425*/
 @media (min-width: 425px){
     #portf {
         .galeria {
@@ -202,6 +284,26 @@ body {
             height: 100%;
             object-fit: cover;
         }
+    }
+}
+
+/*SOBRE 768*/
+#sobre {
+    flex-direction: row;
+    gap: 13px;
+
+    .texto {
+        width: 350px;
+        height: 500px;
+        gap: 12px;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .img-sobre {
+        height: 500px;
     }
 }
 
