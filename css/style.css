@@ -13,12 +13,18 @@ body {
   background-color: #fcc00e;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*MOBILE HEADER*/
 header {
   background-color: #1f1f1f;
-  width: 250px;
+  width: 280px;
   height: 195px;
-  margin: 45px 45px 0px 35px;
+  margin: 45px 0px 0px 0px;
   display: flex;
   flex-direction: column;
 }
@@ -43,7 +49,7 @@ header .uno {
 }
 header a {
   font-family: "Archivo", sans-serif;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 700;
   color: #1f1f1f;
   background-color: #fcc00e;
@@ -51,14 +57,14 @@ header a {
   margin-left: 22.5px;
   margin-bottom: 22.5px;
   display: inline-block;
-  width: 40px;
+  width: 50px;
 }
 
 /*MOBILE MAIN*/
 main {
   background-color: #1f1f1f;
-  width: 250px;
-  margin: 45px 45px 0px 35px;
+  width: 280px;
+  margin: 22.5px 0px 0px 0px;
   padding-top: 22px;
 }
 main a {
@@ -66,7 +72,7 @@ main a {
   font-weight: 700;
   color: #1f1f1f;
   background-color: #fcc00e;
-  font-size: 8px;
+  font-size: 10px;
   margin-left: 22.5px;
   padding: 5px;
 }
@@ -143,8 +149,8 @@ main .galeria .img6 img {
 /*MOBILE SOBRE*/
 #sobre {
   background-color: #1f1f1f;
-  width: 250px;
-  margin: 45px 45px 0px 35px;
+  width: 280px;
+  margin: 22.5px 0px 0px 0px;
   display: flex;
   flex-direction: column;
 }
@@ -182,16 +188,11 @@ main .galeria .img6 img {
 
 /*TABLET HEADER*/
 @media (min-width: 375px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   header {
-    width: 300px;
+    width: 335px;
   }
   main {
-    width: 300px;
+    width: 335px;
   }
   main .galeria {
     gap: 0px;
@@ -220,7 +221,7 @@ main .galeria .img6 img {
     width: 249px;
   }
   #sobre {
-    width: 300px;
+    width: 335px;
     margin-bottom: 45px;
   }
 }
