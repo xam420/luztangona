@@ -140,18 +140,18 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background-color: #fcc00e;
   padding: 5px;
 }
 #sobre .texto h2 {
   font-size: 22px;
   font-family: "Archivo", sans-serif;
-  color: #1f1f1f;
+  color: #fcc00e;
 }
 #sobre .texto p {
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: 200;
   font-family: "Archivo", sans-serif;
-  color: #1f1f1f;
+  color: #fcc00e;
 }
 #sobre .img-sobre {
   width: auto;

@@ -144,19 +144,19 @@ body {
         display: flex;
         flex-direction: column;
         gap: 15px;
-        background-color: $primario;
         padding: 5px;
 
         h2 {
             font-size: 22px;
             font-family: $principal;
-            color: $secundario;
+            color: $primario;
         }
 
         p {
-            font-size: 12px;
+            font-size: 18px;
+            font-weight: 200;
             font-family: $principal;
-            color: $secundario;
+            color: $primario;
         }
     }
 
